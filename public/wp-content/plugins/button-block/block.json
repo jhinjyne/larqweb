@@ -1,0 +1,147 @@
+{
+	"apiVersion": "1",
+	"name": "btn/button",
+	"title": "Button",
+	"description": "Implement multi-functional button.",
+	"category": "widgets",
+	"keywords": [
+		"multi-functional button",
+		"download button",
+		"link button"
+	],
+	"textdomain": "button-block",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"text": {
+			"type": "string",
+			"default": "Button"
+		},
+		"url": {
+			"type": "string",
+			"default": ""
+		},
+		"tooltip": {
+			"type": "string",
+			"default": ""
+		},
+		"target": {
+			"type": "string",
+			"default": "_self"
+		},
+		"isDownload": {
+			"type": "boolean",
+			"default": false
+		},
+		"isUpIcon": {
+			"type": "boolean",
+			"default": false
+		},
+		"icon": {
+			"type": "object",
+			"default": {
+				"class": "fa fa-paper-plane"
+			}
+		},
+		"upIcon": {
+			"type": "object",
+			"default": {
+				"id": null,
+				"url": "",
+				"alt": "",
+				"title": ""
+			}
+		},
+		"type": {
+			"type": "string",
+			"default": "flat"
+		},
+		"isFullWidth": {
+			"type": "boolean",
+			"default": false
+		},
+		"size": {
+			"type": "string",
+			"default": "medium"
+		},
+		"animationType": {
+			"type": "string",
+			"default": "fade-up"
+		},
+		"animationDuration": {
+			"type": "number",
+			"default": 0.4
+		},
+		"addID": {
+			"type": "string",
+			"default": ""
+		},
+		"addCSS": {
+			"type": "string",
+			"default": ""
+		},
+		"alignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"typography": {
+			"type": "object",
+			"default": {
+				"fontSize": 16,
+				"fontWeight": 600,
+				"textDecoration": "none"
+			}
+		},
+		"colors": {
+			"type": "object",
+			"default": {
+				"color": "#fff",
+				"bg": "#4527a4"
+			}
+		},
+		"hovColors": {
+			"type": "object",
+			"default": {
+				"color": "#fff",
+				"bg": "#8344c5"
+			}
+		},
+		"padding": {
+			"type": "object",
+			"default": {
+				"vertical": "12px",
+				"horizontal": "24px"
+			}
+		},
+		"border": {
+			"type": "object",
+			"default": {
+				"radius": "5px"
+			}
+		},
+		"shadow": {
+			"type": "array",
+			"default": []
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	},
+	"editorScript": "file:dist/editor.js",
+	"viewScript": "file:dist/script.js"
+}
